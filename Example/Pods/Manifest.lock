@@ -1,0 +1,17 @@
+PODS:
+  - HDCollectionDataSource (0.1.0)
+  - Kiwi (2.3.0)
+
+DEPENDENCIES:
+  - HDCollectionDataSource (from `../`)
+  - Kiwi
+
+EXTERNAL SOURCES:
+  HDCollectionDataSource:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HDCollectionDataSource: 94c2e0d3b894ef60dba126812fd01d6e080aa52f
+  Kiwi: 54bece5b35564d9b8e03c608d926f1a22fcfc589
+
+COCOAPODS: 0.33.1

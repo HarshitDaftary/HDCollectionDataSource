@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HDViewController : UIViewController
+@class HDCollectionDataSource;
+@interface HDViewController : UIViewController <UICollectionViewDelegate>
+
+
+@property (strong, nonatomic) HDCollectionDataSource *objCollectionDataSource;
+@property (weak, nonatomic) IBOutlet UICollectionView *collectionItems;
+@property (strong, nonatomic) NSMutableArray *arrItems;
 
 @end
